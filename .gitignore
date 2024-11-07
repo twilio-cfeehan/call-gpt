@@ -2,6 +2,10 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=node
 
 ### Node ###
+
+#personalization
+data/personalization.js
+
 # Logs
 logs
 *.log

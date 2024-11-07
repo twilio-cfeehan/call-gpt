@@ -1,0 +1,49 @@
+const customerProfiles = {
+  "+[E164_PHONE_NUMBER]": {
+    profile: {
+      firstName: "[FIRST_NAME]",
+      lastName: "[LAST_NAME]",
+      phoneNumber: "+[E164_PHONE_NUMBER]",
+      email: "[EMAIL_ADDRESS]",
+      preferredApartmentType: "[APARTMENT_TYPE]", // e.g., "studio", "one-bedroom", "two-bedroom", etc.
+      budget: [BUDGET_AMOUNT], // e.g., 1800
+      moveInDate: "[MOVE_IN_DATE]", // e.g., "2024-09-25"
+      petOwner: [IS_PET_OWNER], // true or false
+      tourPreference: "[TOUR_PREFERENCE]", // e.g., "self-guided", "in-person"
+    },
+    conversationHistory: [
+      {
+        date: "[DATE_YYYY_MM_DD]",
+        summary:
+          "[CONVERSATION_SUMMARY_1]", // e.g., "User asked about one-bedroom apartments with balcony access. Assistant confirmed availability."
+      },
+      {
+        date: "[DATE_YYYY_MM_DD]",
+        summary:
+          "[CONVERSATION_SUMMARY_2]", // e.g., "User inquired about the security features in the building."
+      },
+      {
+        date: "[DATE_YYYY_MM_DD]",
+        summary:
+          "[CONVERSATION_SUMMARY_3]", // e.g., "User asked if electric vehicle charging stations are available."
+      },
+      {
+        date: "[DATE_YYYY_MM_DD]",
+        summary:
+          "[CONVERSATION_SUMMARY_4]", // e.g., "User asked about the utility costs for one-bedroom apartments."
+      },
+      {
+        date: "[DATE_YYYY_MM_DD]",
+        summary:
+          "[CONVERSATION_SUMMARY_5]", // e.g., "User inquired about the guest policy and overnight stays."
+      },
+      {
+        date: "[DATE_YYYY_MM_DD]",
+        summary:
+          "[CONVERSATION_SUMMARY_6]", // e.g., "User asked about nearby public transportation options."
+      },
+    ],
+  },
+};
+
+module.exports = customerProfiles;
